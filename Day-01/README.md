@@ -1,4 +1,4 @@
-# Day 01 - Band Name Generator
+# Day 01 - Band Name Generator 🎸🎶
 
 This beginner-friendly command-line program welcomes the user, collects input data via the console, and joins the strings together. It is a classic starter project from beginner coding courses like The Udemy.
 
