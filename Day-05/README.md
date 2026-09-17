@@ -1,4 +1,4 @@
-# Day 05 - Password Generator
+# Day 05 - Password Generator 🔐
 
 A command-line password generator that creates a secure, randomized password based on the user's preferred number of letters, symbols, and numbers.
 
