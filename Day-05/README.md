@@ -1,19 +1,14 @@
-# Day 05 - Password Generator
-
-A command-line password generator that creates a secure, randomized password based on the user's preferred number of letters, symbols, and numbers.
+# Day 5 - Password Generator
 
 ## How It Works
+1. User inputs how many letters, symbols, and numbers they want
+2. Random characters are picked from each category and added to a list
+3. The list is shuffled to mix all characters randomly
+4. Characters are joined into a final password string and printed
 
-1. User specifies how many letters, symbols, and numbers they want.
-2. Random characters are picked from each category and added to a list.
-3. The list is shuffled to mix all characters randomly.
-4. The final password is assembled and displayed.
-
-## Key Concepts Used
-
-- **`random.choice()`:** Picks a random character from a list.
-- **`random.shuffle()`:** Shuffles the password list to randomize character order.
-- **`for` loops:** Iterates to build each section of the password.
-- **Lists:** Stores letters, numbers, symbols, and the assembled password characters.
-- **String Concatenation:** Joins the shuffled list into a final password string.
-- **`f-strings`:** Formats the output message cleanly.
+## Key Concepts
+- **for loops** — iterate a set number of times to build each character group
+- **random.choice()** — picks a random item from a list
+- **random.shuffle()** — shuffles the list in place to randomize order
+- **List building** — appending characters to a list before joining
+- **String concatenation** — combining list items into a single password string
